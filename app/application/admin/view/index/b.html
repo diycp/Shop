@@ -1,0 +1,68 @@
+﻿<div class="am-cf admin-main"> 
+
+<div class="nav-navicon admin-main admin-sidebar">
+    
+    
+    <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：{$Think.session.admin}</div>
+    <div class="sideMenu">
+    <h2> <a href="{:url('admin/index/index')}">首页</a></h2>
+      <h3 class="am-icon-flag"><em></em> <a href="#">商品管理</a></h3>
+      <ul>
+        <li><a href="{:url('admin/goods/goods_list')}">商品列表</a></li>
+        <li><a href="{:url('admin/goods/goods_add')}">添加新商品</a></li>
+        <li><a href="{:url('admin/category/category')}">商品分类</a></li>
+        <li><a href="{:url('admin/goods/goods_rey')}">商品回收站</a></li>
+        <li><a href="{:url('admin/goods/goods_number')}">库存管理</a> </li>
+      </ul>
+      <h3 class="am-icon-cart-plus"><em></em> <a href="#"> 订单管理</a></h3>
+      <ul>
+        <li><a href="{:url('admin/order/order_list')}">订单列表</a></li>
+        <li><a href="{:url('admin/order/delivery_yes')}">已发货</a></li>
+        <li><a href="{:url('admin/order/delivery_no')}">未发货</a></li>
+        <li><a href="{:url('admin/order/pay_yes')}">已支付</a></li>
+        <li><a href="{:url('admin/order/pay_no')}">未支付</a></li>
+        <li><a href="{:url('admin/order/order_th')}">退/换货</a></li>
+      </ul>
+      <h3 class="am-icon-users"><em></em> <a href="#">会员管理</a></h3>
+      <ul>
+        <li><a href="{:url('admin/member/member_list')}">会员列表 </a></li>
+        <li><a href="{:url('admin/member/member_list')}">删除会员</a></li>
+        <li><a href="{:url('admin/member/member_plun')}">用户评论</a></li>
+      
+      </ul>
+      <h3 class="am-icon-volume-up"><em></em> <a href="#">信息通知</a></h3>
+      <ul>
+        <li><a href="">站内消息 /留言 </a></li>
+        <li><a href="">短信</a></li>
+        <li><a href="">邮件</a></li>
+        <li><a href="">微信</a></li>
+        <li><a href="">客服</a></li>
+      </ul>
+      <h3 class="am-icon-gears"><em></em> <a href="#">系统设置</a></h3>
+      <ul>
+        <li><a href="">数据备份</a></li>
+        <li><a href="">邮件/短信管理</a></li>
+        <li><a href="">上传/下载</a></li>
+        <li><a href="">权限</a></li>
+        <li><a href="">网站设置</a></li>
+        <li><a href="">第三方支付</a></li>
+        <li><a href="">提现 /转账 出入账汇率</a></li>
+        <li><a href="">平台设置</a></li>
+        <li><a href="">声音文件</a></li>
+      </ul>
+    </div>
+    <!-- sideMenu End --> 
+    
+    <script type="text/javascript">
+      jQuery(".sideMenu").slide({
+        titCell:"h3", //鼠标触发对象
+        targetCell:"ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+        effect:"slideDown", //targetCell下拉效果
+        delayTime:300 , //效果时间
+        triggerTime:150, //鼠标延迟触发时间（默认150）
+        defaultPlay:true,//默认是否执行效果（默认true）
+        returnDefault:true //鼠标从.sideMen移走后返回默认状态（默认false）
+        });
+    </script> 
+</div>
+

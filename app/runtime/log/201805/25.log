@@ -1,0 +1,1827 @@
+[ 2018-05-25T11:35:03+08:00 ] 172.18.215.229 47.92.119.45 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.133994s][吞吐率：7.46req/s] [内存消耗：4,436.31kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'www.yeguofang.top',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.004073s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000517s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000452s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003466s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000359s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:09:40+08:00 ] 172.18.215.229 183.3.255.32 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.082047s][吞吐率：12.19req/s] [内存消耗：4,438.02kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.yeguofang.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003193s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000513s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000469s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003338s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000365s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:31+08:00 ] 172.18.215.229 183.3.255.32 GET /index/sort.html
+[ log ] www.yeguofang.top/index/sort.html [运行时间：0.063568s][吞吐率：15.73req/s] [内存消耗：4,370.34kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'sort',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->sort[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\sort.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003630s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000549s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000593s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:31+08:00 ] 172.18.215.229 121.51.14.26 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.111108s][吞吐率：9.00req/s] [内存消耗：4,437.59kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'close',
+  'content-length' => '0',
+  'host' => 'www.yeguofang.top',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003401s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000508s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000462s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003305s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000363s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:31+08:00 ] 172.18.215.229 157.255.172.21 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.198157s][吞吐率：5.05req/s] [内存消耗：4,437.59kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'close',
+  'content-length' => '0',
+  'host' => 'www.yeguofang.top',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003631s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000516s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000498s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002917s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000420s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:34+08:00 ] 172.18.215.229 183.3.255.32 GET /index/home.html
+[ log ] www.yeguofang.top/index/home.html [运行时间：0.044520s][吞吐率：22.46req/s] [内存消耗：3,030.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/index/sort.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:34+08:00 ] 172.18.215.229 58.250.137.194 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.085556s][吞吐率：11.69req/s] [内存消耗：4,437.59kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'close',
+  'content-length' => '0',
+  'host' => 'www.yeguofang.top',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003023s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000533s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000469s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003309s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:34+08:00 ] 172.18.215.229 121.51.14.25 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.172096s][吞吐率：5.81req/s] [内存消耗：4,437.59kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'close',
+  'content-length' => '0',
+  'host' => 'www.yeguofang.top',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003675s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000531s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000594s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000470s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002977s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:39+08:00 ] 172.18.215.229 101.227.131.207 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.082848s][吞吐率：12.07req/s] [内存消耗：4,436.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003593s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000528s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000461s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002957s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:39+08:00 ] 172.18.215.229 183.3.255.32 GET /home/person/index.html
+[ log ] www.yeguofang.top/home/person/index.html [运行时间：0.038204s][吞吐率：26.18req/s] [内存消耗：2,478.44kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'home',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/index/sort.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:42+08:00 ] 172.18.215.229 183.3.255.32 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.090589s][吞吐率：11.04req/s] [内存消耗：4,438.14kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003325s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000568s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000539s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003713s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000437s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:45+08:00 ] 172.18.215.229 183.3.255.32 GET /index/shopcart.html
+[ log ] www.yeguofang.top/index/shopcart.html [运行时间：0.056282s][吞吐率：17.77req/s] [内存消耗：3,316.38kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shopcart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->shopcart[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\shopcart.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: data[C:\wamp\www\app\runtime\temp\c919f13694eba8ad1904f8b84f94ca04.php:120]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:45+08:00 ] 172.18.215.229 223.104.65.69 GET /index/shopcart.html
+[ log ] www.yeguofang.top/index/shopcart.html [运行时间：0.051686s][吞吐率：19.35req/s] [内存消耗：3,045.16kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shopcart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.yeguofang.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->shopcart[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\shopcart.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: data[C:\wamp\www\app\runtime\temp\c919f13694eba8ad1904f8b84f94ca04.php:120]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:45+08:00 ] 172.18.215.229 101.226.79.240 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.149358s][吞吐率：6.70req/s] [内存消耗：4,437.16kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003561s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000510s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000459s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003339s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:47+08:00 ] 172.18.215.229 183.3.255.32 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.083248s][吞吐率：12.01req/s] [内存消耗：4,438.14kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003416s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000804s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000462s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002868s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000359s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:48+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.054606s][吞吐率：18.31req/s] [内存消耗：3,028.79kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:54+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.050961s][吞吐率：19.62req/s] [内存消耗：3,029.14kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:59+08:00 ] 172.18.215.229 183.3.255.32 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.039381s][吞吐率：25.39req/s] [内存消耗：2,521.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:10:59+08:00 ] 172.18.215.229 223.104.65.69 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.035050s][吞吐率：28.53req/s] [内存消耗：2,520.95kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:07+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.050048s][吞吐率：19.98req/s] [内存消耗：3,029.14kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:09+08:00 ] 172.18.215.229 183.3.255.32 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.032382s][吞吐率：30.88req/s] [内存消耗：2,521.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:09+08:00 ] 172.18.215.229 223.104.65.69 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.037588s][吞吐率：26.60req/s] [内存消耗：2,520.72kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:11+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.051939s][吞吐率：19.25req/s] [内存消耗：3,029.14kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:12+08:00 ] 172.18.215.229 183.3.255.32 GET /login/register.html
+[ log ] www.yeguofang.top/login/register.html [运行时间：0.036138s][吞吐率：27.67req/s] [内存消耗：2,521.40kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:12+08:00 ] 172.18.215.229 223.104.65.69 GET /login/register.html
+[ log ] www.yeguofang.top/login/register.html [运行时间：0.040255s][吞吐率：24.84req/s] [内存消耗：2,520.73kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:13+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.054322s][吞吐率：18.41req/s] [内存消耗：3,029.14kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:31+08:00 ] 172.18.215.229 120.204.200.82 GET /index/sort.html
+[ log ] www.yeguofang.top/index/sort.html [运行时间：0.061608s][吞吐率：16.23req/s] [内存消耗：4,369.59kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'sort',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->sort[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\sort.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003077s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000520s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000462s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:34+08:00 ] 172.18.215.229 61.151.226.156 GET /index/home.html
+[ log ] www.yeguofang.top/index/home.html [运行时间：0.044179s][吞吐率：22.64req/s] [内存消耗：3,029.52kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:37+08:00 ] 172.18.215.229 61.151.225.189 GET /index/sort.html
+[ log ] www.yeguofang.top/index/sort.html [运行时间：0.062179s][吞吐率：16.08req/s] [内存消耗：4,369.58kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'sort',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->sort[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\sort.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000701s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003583s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000522s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000480s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:37+08:00 ] 172.18.215.229 140.207.118.16 GET /index/home.html
+[ log ] www.yeguofang.top/index/home.html [运行时间：0.043111s][吞吐率：23.20req/s] [内存消耗：3,029.85kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:40+08:00 ] 172.18.215.229 101.227.143.143 GET /home/person/index.html
+[ log ] www.yeguofang.top/home/person/index.html [运行时间：0.036699s][吞吐率：27.25req/s] [内存消耗：2,476.93kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'home',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:41+08:00 ] 172.18.215.229 183.3.255.32 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.051326s][吞吐率：19.48req/s] [内存消耗：3,029.14kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:43+08:00 ] 172.18.215.229 61.151.178.173 GET /home/person/index.html
+[ log ] www.yeguofang.top/home/person/index.html [运行时间：0.039521s][吞吐率：25.30req/s] [内存消耗：2,477.69kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'home',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:43+08:00 ] 172.18.215.229 183.3.255.32 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.083895s][吞吐率：11.92req/s] [内存消耗：4,438.14kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003959s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000512s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000458s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003076s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000357s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:45+08:00 ] 172.18.215.229 61.151.226.77 GET /index/shopcart.html
+[ log ] www.yeguofang.top/index/shopcart.html [运行时间：0.048733s][吞吐率：20.52req/s] [内存消耗：3,044.40kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shopcart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->shopcart[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\shopcart.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: data[C:\wamp\www\app\runtime\temp\c919f13694eba8ad1904f8b84f94ca04.php:120]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:47+08:00 ] 172.18.215.229 157.255.172.21 GET /introduction.html
+[ log ] www.yeguofang.top/introduction.html [运行时间：0.035589s][吞吐率：28.10req/s] [内存消耗：2,478.70kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'introduction',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'referer' => 'http://www.yeguofang.top/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:48+08:00 ] 172.18.215.229 101.226.79.235 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.049825s][吞吐率：20.07req/s] [内存消耗：3,027.86kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:48+08:00 ] 172.18.215.229 183.3.255.32 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.083912s][吞吐率：11.92req/s] [内存消耗：4,438.14kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=gjl8cq9rsd4o6l5f4cgs0asi41',
+  'host' => 'www.yeguofang.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; MLLED V9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '223.104.65.69',
+  'x-forwarded-for-pound' => '223.104.65.69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.002835s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000534s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000482s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003559s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:51+08:00 ] 172.18.215.229 101.226.86.164 GET /member/index.html
+[ log ] www.yeguofang.top/member/index.html [运行时间：0.050072s][吞吐率：19.97req/s] [内存消耗：3,028.12kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ C:\wamp\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:11:59+08:00 ] 172.18.215.229 61.151.226.62 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.038406s][吞吐率：26.04req/s] [内存消耗：2,520.01kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:12:01+08:00 ] 172.18.215.229 61.151.178.164 GET /login/login.html
+[ log ] www.yeguofang.top/login/login.html [运行时间：0.039301s][吞吐率：25.44req/s] [内存消耗：2,520.13kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:12:15+08:00 ] 172.18.215.229 101.227.143.150 GET /login/register.html
+[ log ] www.yeguofang.top/login/register.html [运行时间：0.037653s][吞吐率：26.56req/s] [内存消耗：2,520.14kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[C:\wamp\www\app\application\index\controller\Login.php:2]
+
+---------------------------------------------------------------
+[ 2018-05-25T14:12:47+08:00 ] 172.18.215.229 61.151.226.67 GET /introduction.html
+[ log ] www.yeguofang.top/introduction.html [运行时间：0.036454s][吞吐率：27.43req/s] [内存消耗：2,477.35kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'introduction',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T14:12:49+08:00 ] 172.18.215.229 61.151.226.85 GET /introduction.html
+[ log ] www.yeguofang.top/introduction.html [运行时间：0.035504s][吞吐率：28.17req/s] [内存消耗：2,477.73kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'introduction',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'www.yeguofang.top',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-25T15:47:11+08:00 ] 172.18.215.229 204.44.65.210 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.093087s][吞吐率：10.74req/s] [内存消耗：4,436.30kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'accept' => 'text/html, */*',
+  'accept-encoding' => 'identity',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003297s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000587s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000457s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003354s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000613s ]
+
+---------------------------------------------------------------
+[ 2018-05-25T15:47:12+08:00 ] 172.18.215.229 204.44.65.210 GET /
+[ log ] www.yeguofang.top/ [运行时间：0.084942s][吞吐率：11.77req/s] [内存消耗：4,436.30kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yeguofang.top',
+  'accept' => 'text/html, */*',
+  'accept-encoding' => 'identity',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003492s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000585s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.000461s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002925s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000415s ]
+
+---------------------------------------------------------------

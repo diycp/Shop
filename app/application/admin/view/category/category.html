@@ -1,0 +1,89 @@
+{include file="../application/admin/view/index/link.html" /}
+{include file="../application/admin/view/index/a.html" /}
+{include file="../application/admin/view/index/b.html" /}
+
+<div class="admin-biaogelist">
+   <div class="listbiaoti am-cf">
+      <ul class="am-icon-flag on"> 订单列表</ul>
+      <dl class="am-icon-home" style="float: right;">当前位置： 首页 > <a href="#">商品列表</a></dl>
+   </div>
+
+  <div class="am-tabs am-margin" data-am-tabs>
+     <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">添加父类</a></li>
+        <li><a href="#tab2">添加子类</a></li>
+        <li><a href="#tab3">分类详情</a></li>
+    </ul>
+
+    <div class="am-tabs-bd">
+
+      <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">
+            父类名称：
+          </div>
+          <div class="am-u-sm-8 am-u-md-10">
+            <form class="am-form am-form-inline" method="post" action="{:url('admin/category/category_add_fu')}">
+              <div class="am-form-group am-form-icon">
+               <input type="text" name="name" class="am-form-field am-input-sm" >
+              </div>
+              <button type="submit" class="am-btn am-btn-success am-radius ">添加</button>
+            </form>
+          </div>
+        </div>
+    </div>
+
+
+      <div class="am-tab-panel am-fade" id="tab2">
+        <form class="am-form" method="post" action="{:url('admin/category/category_add_son')}">
+          <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">所属父类：</div>
+          <div class="am-u-sm-8 am-u-md-10">
+            <select  name="gid" style="width:200px;">
+             {foreach $category as $v }
+                  <option value="{$v.pid}">---{$v.name}---</option>
+            {/foreach}     
+            </select>
+          </div>
+        </div>
+
+        <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+              子类名称：
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" name="name" class="am-input-sm">
+            </div>
+           <button type="submit" class="am-btn am-btn-success am-radius ">添加</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="am-tab-panel am-fade" id="tab3">
+        <form class="am-form">
+        <div class="xitong">
+        {volist name="tptc" id="vo" key="k"}
+                  <div class="am-form-group">|——{$vo.name}------<a href="{:url('admin/category/del_fu',['id'=>$vo.pid])}">删除</a>
+
+                  </div>
+                  {volist name="tpts" id="vs" key="k"}
+                        {if condition ="$vo.pid eq $vs['gid']"}
+                           <div class="am-form-group">&nbsp;&nbsp;&nbsp;&nbsp;
+                           ||————{$vs.name}------<a href="{:url('admin/category/del_son',['id'=>$vs.pid])}">删除</a>
+                            
+                           </div>
+                        {/if}
+                  {/volist}
+            {/volist}     
+      </div>
+      </form>
+      </div>
+      
+ 
+    </div>
+  </div>
+
+ {include file="../application/admin/view/index/c.html" /}
+
+
+

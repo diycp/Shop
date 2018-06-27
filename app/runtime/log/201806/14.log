@@ -1,0 +1,479 @@
+[ 2018-06-14T00:00:02+08:00 ] 127.0.0.1 127.0.0.1 GET /member/information.html
+[ log ] www.home.com/member/information.html [运行时间：0.108587s][吞吐率：9.21req/s] [内存消耗：3,297.31kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'information',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->information[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\information.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:00:06+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.061278s][吞吐率：16.32req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.078072s][吞吐率：12.81req/s] [内存消耗：3,311.34kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/images/logobig.p
+[ log ] www.home.com/home/images/logobig.p [运行时间：0.061768s][吞吐率：16.19req/s] [内存消耗：2,485.20kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'home',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/member/index.html',
+  'cache-control' => 'max-age=0',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.715479s][吞吐率：1.40req/s] [内存消耗：3,311.40kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:22:40+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.059488s][吞吐率：16.81req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:22:40+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.038757s][吞吐率：25.80req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:22:41+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.046412s][吞吐率：21.55req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:32:04+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.054739s][吞吐率：18.27req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:32:05+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.035890s][吞吐率：27.86req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index.html
+[ log ] www.home.com/member/index.html [运行时间：0.042086s][吞吐率：23.76req/s] [内存消耗：3,036.66kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Member->index[ E:\wamp64\www\app\application\index\controller\Member.php ]
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\member\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T00:32:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index.html
+[ log ] www.home.com/index/index.html [运行时间：0.255355s][吞吐率：3.92req/s] [内存消耗：4,445.47kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp64\www\app\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.home.com/member/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.home.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t0pdt9hh6n991ij5q2v7p3f4h3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp64\www\app\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\app\public/../application/index\view\index\index.html [ array (
+  0 => 'tptc',
+  1 => 'tpts',
+  2 => 'data',
+  3 => 'data1',
+  4 => 'data2',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 4200,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002037s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid = 0 ) ORDER BY pid ASC [ RunTime:0.000435s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000983s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  (  gid != 0 ) ORDER BY pid ASC [ RunTime:0.001373s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:dbname=shopp;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.002206s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '2'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '3'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `gid` = '4'  AND `groom` = 'yes'  AND `shelf` = 'yes' [ RunTime:0.000244s ]
+
+---------------------------------------------------------------
